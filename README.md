@@ -44,7 +44,7 @@ The Instagram Post Fetcher is a Python module designed to extract information fr
    post_info = driver.get_all_post_info()
    ```
 
-##Output Structure:
+## Output Structure:
 
 The output will be in the following structure:
 
