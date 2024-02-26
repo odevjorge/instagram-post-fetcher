@@ -1,7 +1,7 @@
 """
 Main function to perform operations.
 """
-from packages.scraping import WebDriver
+from core.management.data.post import DataManage
 
 
 def main():
@@ -11,16 +11,13 @@ def main():
     This function initializes a WebDriver object to fetch post information
     from Instagram and prints all the collected post information.
     """
-    print(f"{'*'*25}\nInstagram Post Info Fetcher\n{'*'*25}")
+    print(f"{'*'*25}\nInstagram Post Data Fetcher\n{'*'*25}")
 
-    # Initialize the WebDriver object
-    driver = WebDriver()
+    data = DataManage()
 
-    # Fetch post information
-    driver.post_fetcher()
+    info = data.get_all_post_info()
 
-    # Print all the collected post information
-    print(driver.get_all_post_info())
+    print(info)
 
 
 if __name__ == "__main__":
