@@ -24,24 +24,19 @@ The Instagram Post Fetcher is a Python module designed to extract information fr
 
 ## Usage
 
-1. Import the WebDriver class from the module:
+1. Import the DataManage class from the module:
    ```python
    from core.management.data.post import DataManage
    ```
 
-2. Initialize a WebDriver object:
+2. Initialize a Manage object:
    ```python
    data = DataManage()
    ```
 
-3. Fetch post data using the `get_all_post_info()` method:
+3. Retrieve post information using the provided methods:
    ```python
-   data.get_all_post_info()
-   ```
-
-4. Retrieve post information using the provided methods:
-   ```python
-   post_info = driver.get_all_post_info()
+   post_info = data.get_all_post_info()
    ```
 
 ## Output Structure:
