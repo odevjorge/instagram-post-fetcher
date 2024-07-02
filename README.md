@@ -14,7 +14,7 @@ The Instagram Post Fetcher is a Python module designed to extract information fr
 
 1. Clone the repository:
    ```
-   git clone https://github.com/seu-usuario/instagram-post-fetcher.git
+   git clone https://github.com/odevjorge/instagram-post-fetcher.git
    ```
 
 2. Install the required dependencies:
